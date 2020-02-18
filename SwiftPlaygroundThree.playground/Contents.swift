@@ -21,10 +21,9 @@ var ExpensiveCars = ["a Ferrari", "a Mercedes", "a Jaguar", "a Lambo", "an Aston
     print(name, "is a very expensive car")
 }
 
-var CarPrices: = ["$350_000", "$34_250", "$76_000", "$203_764", "$250_000", "$200_000", "$19 million", "A saved life is priceless"]
-    
+var CarPrices = ["$350_000", "$34_250", "$76_000", "$203_764", "$250_000", "$200_000", "$19 million", "A saved life is priceless"]
+    for name in CarPrices
     {
-    print("name + 100")
+    print(name," + 100")
 }
 
-//I can't figure out the integer part
